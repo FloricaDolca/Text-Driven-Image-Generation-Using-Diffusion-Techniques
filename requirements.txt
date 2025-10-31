@@ -1,0 +1,10 @@
+torch
+torchvision
+transformers
+diffusers
+huggingface-hub
+Pillow
+matplotlib
+tqdm
+numpy
+torchmetrics
