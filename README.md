@@ -12,12 +12,12 @@ This notebook demonstrates the full diffusion pipeline:
 ---
 ## 🚀 Features
 
-- 🧠 **Text-to-Image Generation** — generate 512×512 images conditioned on text prompts.
-- 🎨 **Style conditioning** — choose styles like `cinematic`, `anime`, `photographic`, etc.
-- 🗣️ **Prompt Enhancement** — uses *Gustavosta/MagicPrompt-Stable-Diffusion* to enrich prompts.
-- 🌀 **Multiple Diffusion Schedulers** — supports `LMSDiscrete`, `HeunDiscrete`, and  `DPMSolverMultistep`.
-- 🧾 **CLIP-based Evaluation** — automatically computes a similarity score between prompt and generated image.
-- ⚡ **GPU / MPS Acceleration** — automatically detects CUDA or MPS devices for fast inference.
+-  **Text-to-Image Generation** — generate 512×512 images conditioned on text prompts.
+-  **Style conditioning** — choose styles like `cinematic`, `anime`, `photographic`, etc.
+-  **Prompt Enhancement** — uses *Gustavosta/MagicPrompt-Stable-Diffusion* to enrich prompts.
+-  **Multiple Diffusion Schedulers** — supports `LMSDiscrete`, `HeunDiscrete`, and  `DPMSolverMultistep`.
+-  **CLIP-based Evaluation** — automatically computes a similarity score between prompt and generated image.
+-  **GPU / MPS Acceleration** — automatically detects CUDA or MPS devices for fast inference.
 
 ---
 ## 🧩 Architecture Overview
@@ -74,7 +74,7 @@ The model was tested on several diverse prompts to evaluate image-text alignment
 
 ---
 
-## 🎨 4.2 Test Results — Style Variation
+## 📈 4.2 Test Results — Style Variation
 
 The same prompt (“an orange cat staring off with pretty eyes”) was tested across multiple visual styles.
 
@@ -88,7 +88,7 @@ The same prompt (“an orange cat staring off with pretty eyes”) was tested ac
 
 ---
 
-📈 *CLIP Scores indicate how well each generated image semantically aligns with the input text prompt.*
+ *CLIP Scores indicate how well each generated image semantically aligns with the input text prompt.*
 
 ## ⚙️ Usage
 Run the notebook step by step in Jupyter: 
